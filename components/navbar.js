@@ -8,13 +8,15 @@ class Navbar extends HTMLElement{
         `
         <style>
             .larger-screen-nav-wrapper .navbar{
-                background-color: black;
+                background-color: white;
                 position: fixed;
-                width: 80%
+                width: 80%;
+                border-bottom: 2px solid black;
             }
             .larger-screen-nav-wrapper ul li a{
                 text-decoration: none;
-                color: white
+                color: black;
+                margin-bottom: 10px;
             }
             .larger-screen-nav-wrapper #menu-text{
                 color: white;

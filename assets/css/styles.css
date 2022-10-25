@@ -10,5 +10,28 @@ body{
     color: black !important;
     margin-top: 20px;
     padding-left: 15px;
+    position: fixed;
 }
 /* end of navbar stylings */
+
+#custom-margin{
+    margin-top: 100px;
+}
+
+/* wavy header stylings */
+#header{
+    position: relative;
+}
+#header h1{
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    color: white !important;
+}
+#header-video{
+    width: 100%;
+}
+
+/* end of wavy header stylings */
