@@ -7,10 +7,11 @@ body{
 
 /* navbar stylings */
 .navbar-section h6{
+    position: fixed;
     color: black !important;
     margin-top: 20px;
     padding-left: 15px;
-    position: fixed;
+    z-index: 1000 !important;
 }
 /* end of navbar stylings */
 
@@ -30,8 +31,71 @@ body{
     top: 50%;
     color: white !important;
 }
-#header-video{
+
+#page-wrap {
     width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#canvas {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.video-started #canvas {
+    opacity: 1;
+}
+.curtain-wrapper {
+    position: absolute;
+    z-index: 15;
+    top: 10%;
+    right: 0%;
+    bottom: 10%;
+    left: 0%;
+}
+.curtain {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.curtain img, .curtain video {
+    opacity: 0;
+}
+.no-curtains .curtain-wrapper {
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.no-curtains .curtain {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-curtains.video-started .curtain img, .no-curtains.video-started .curtain video {
+    display: block;
+    object-fit: cover;
+}
+
+/*** handling video ratio on error ***/
+@media screen and (max-aspect-ratio: 1920/1080) {
+    .no-curtains .curtain-wrapper {
+        height: calc(100vh * 0.8);
+        width: calc(177vh * 0.8);
+    }
+}
+    @media screen and (min-aspect-ratio: 1920/1080) {
+    .no-curtains .curtain-wrapper {
+        width: calc(100vw * 0.8);
+        height: calc(56.25vw * 0.8);
+    }
 }
 
 /* end of wavy header stylings */

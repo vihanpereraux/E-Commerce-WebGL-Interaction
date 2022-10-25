@@ -8,10 +8,11 @@ class Navbar extends HTMLElement{
         `
         <style>
             .larger-screen-nav-wrapper .navbar{
-                background-color: white;
+                background: none;
                 position: fixed;
                 width: 80%;
                 border-bottom: 2px solid black;
+                z-index: 1000;
             }
             .larger-screen-nav-wrapper ul li a{
                 text-decoration: none;

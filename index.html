@@ -32,18 +32,22 @@
 
     <!-- header section -->
     <div id="header">
-        <h1>aesthetic vibes</h1>
-        
-        <!-- video background -->
-        <video id="header-video" muted autoplay loop>
-            <source src="assets/vid/placeholder.mp4">
-        </video>
+        <!-- <h1>aesthetic vibes</h1> -->
+        <div id="page-wrap">
+            <div id="canvas"></div>
+            <div class="curtain-wrapper">
+                <div class="curtain">
+                    <video class="w-100" src="assets/vid/placeholder.mp4" crossorigin="" data-sampler="simplePlaneVideoTexture"></video>
+                </div>
+            </div>
+        </div>
     </div>
+
     
     <!-- bootstrap v5.2 js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- custom scripts -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" type="module"></script>
 </body>
 </html>
