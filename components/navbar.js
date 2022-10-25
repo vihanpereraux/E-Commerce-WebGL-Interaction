@@ -7,22 +7,22 @@ class Navbar extends HTMLElement{
         this.innerHTML = 
         `
         <style>
-        .larger-screen-nav-wrapper .navbar{
-            position: fixed;
-            width: 80%
-        }
-        .larger-screen-nav-wrapper ul li a{
-            text-decoration: none;
-            color: white
-        }
-        .larger-screen-nav-wrapper #menu-text{
-            color: white;
-            background: red;
-            position: absolute;
-            bottom: 0;
-            transform: translateX(-50%);
-            left: 50%
-        }
+            .larger-screen-nav-wrapper .navbar{
+                background-color: black;
+                position: fixed;
+                width: 80%
+            }
+            .larger-screen-nav-wrapper ul li a{
+                text-decoration: none;
+                color: white
+            }
+            .larger-screen-nav-wrapper #menu-text{
+                color: white;
+                position: absolute;
+                bottom: 0;
+                transform: translateX(-50%);
+                left: 50%
+            }
         </style>
         
         <div class="larger-screen-nav-wrapper">

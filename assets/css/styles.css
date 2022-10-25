@@ -3,3 +3,12 @@ body{
     overflow-x: hidden !important;
     margin: 0 !important;
 }
+
+
+/* navbar stylings */
+.navbar-section h6{
+    color: black !important;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+/* end of navbar stylings */
