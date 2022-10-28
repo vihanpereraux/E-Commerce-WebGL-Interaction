@@ -1,0 +1,21 @@
+body{
+    background-color: white !important;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    background-color: white !important;
+}
+
+
+/* navbar stylings */
+.navbar-section h6{
+    position: fixed;
+    color: black !important;
+    margin-top: 20px;
+    padding-left: 15px;
+    z-index: 1000 !important;
+}
+/* end of navbar stylings */
+
+#custom-margin{
+    margin-top: 100px;
+}
