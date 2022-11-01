@@ -21,3 +21,13 @@ body{
 #custom-margin{
     margin-top: 100px;
 }
+
+.dd{
+    position: relative;
+    width: 100%;
+}
+#gff{
+    position: absolute;
+    right: 0;
+    width: auto;
+}

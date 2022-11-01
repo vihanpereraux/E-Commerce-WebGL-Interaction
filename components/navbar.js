@@ -10,7 +10,7 @@ class Navbar extends HTMLElement{
             .larger-screen-nav-wrapper .navbar{
                 background: none;
                 position: fixed;
-                width: 80%;
+                width: 72%;
                 border-bottom: 2px solid black;
                 z-index: 1000;
             }
