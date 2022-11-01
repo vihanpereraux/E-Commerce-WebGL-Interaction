@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap');
+
 body{
     background-color: white !important;
     overflow-x: hidden !important;
@@ -18,4 +20,14 @@ body{
 
 #custom-margin{
     margin-top: 100px;
+}
+
+.dd{
+    position: relative;
+    width: 100%;
+}
+#gff{
+    position: absolute;
+    right: 0;
+    width: auto;
 }
