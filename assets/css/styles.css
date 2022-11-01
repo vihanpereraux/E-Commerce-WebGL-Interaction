@@ -22,6 +22,7 @@ body{
     margin-top: 100px;
 }
 
+/* etc */
 .dd{
     position: relative;
     width: 100%;
@@ -31,3 +32,108 @@ body{
     right: 0;
     width: auto;
 }
+/* etc */
+
+
+/* overview stylings */
+.overview-wrapper{
+    position: relative;
+}
+.overview-wrapper #title{
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    font-size: 6vw;
+    margin-left: 25px;
+    transform: translateY(-50%);
+    top: 40%;
+    z-index: 1;
+}
+.overview-wrapper .left-panel{
+    position: relative;
+}
+.overview-wrapper #overview-footer{
+    position: absolute;
+    width: 96%;
+    bottom: 0;
+    font-size: 14px;
+}
+#overview-footer p{
+    text-transform: uppercase;
+}
+#overview-footer ul{
+    padding-left: 0px;
+    text-transform: uppercase;
+}
+#overview-footer ul li{
+    list-style: none;
+    float: left;
+}
+#overview-footer ul li:nth-child(2){
+    margin-left: 15px;
+    margin-right: 7.5px;
+}
+#overview-footer ul li:nth-child(3){
+    margin-left: 7.5px;
+}
+.overview-wrapper .right-panel{
+    position: relative;
+}
+.overview-wrapper .right-panel #link{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+.overview-wrapper .right-panel #date-text{
+    position: absolute;
+    bottom: 0;
+}
+.overview-wrapper .right-panel .arrow-btn{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+/* end of overview stylings */
+
+
+/* collections stylings */
+.collections-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.collections-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* end of collections stylings */
+
+
+/* women section stylings */
+.women-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.women-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* end of women section stylings */
+
+
+/* men section stylings */
+.men-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.men-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* end of men section stylings */
