@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAMEELIYA</title>
 
+    <style>
+        @font-face {
+            font-family: 'freigeist-medium';
+            src: url(assets/fonts/freigeist-medium.otf);
+        }
+
+        @font-face {
+            font-family: 'freigeist-light';
+            src: url(assets/fonts/freigeist-light.otf);
+        }
+
+        @font-face {
+            font-family: 'freigeist-regular';
+            src: url(assets/fonts/freigeist-regular.otf);
+        }
+    </style>
+
     <!-- bootstrap v5.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 
     <!-- custom stylings -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <script src="assets/js/ink.js"></script>
     <script src="components/navbar.js"></script>
     <script src="components/header.js"></script>
 </head>
@@ -37,6 +55,9 @@
         <header-component></header-component>
     </div>
     <!-- end of header section -->
+
+    <!-- custom margin for fix navbar -->
+    <div id="custom-margin"></div>
 
     <!-- overview -->
     <div class="container-fluid overview-wrapper">
@@ -90,43 +111,43 @@
                 <div class="row dd">
                     <h1>collections٭</h1>
                     <hr>
-                    <p id="gff">laka</p>
+                    <!-- <p id="gff">laka</p> -->
                 </div>
 
                 <div class="row dd">
                     <h2>ss21</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">Lamour</p>
                 </div>
 
                 <div class="row dd">
                     <h2>fw20</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">LAnnee 97</p>
                 </div>
 
                 <div class="row dd">
                     <h2>ss20</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">Le Coup de Soleil</p>
                 </div>
 
                 <div class="row dd">
                     <h2>fw19</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">Le Meunier</p>
                 </div>
 
                 <div class="row dd">
                     <h2>ss19</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">Le Gadjo</p>
                 </div>
 
                 <div class="row dd">
                     <h2>fw18</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="des-text">Le Souk</p>
                 </div>
             </div>
         </div>
@@ -143,49 +164,54 @@
                 <div class="row dd">
                     <h1>women٭</h1>
                     <hr>
-                    <p id="gff">new arrivals</p>
+                </div>
+
+                <div class="row dd">
+                    <h2>new arrivals</h2>
+                    <hr>
+                    <p id="counter">111 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>exclusive</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">23 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>dresses</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">27 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>shirts</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">31 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>coats and jackets</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">19 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>skirts</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">11 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>tops</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">31 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>bags</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">69 items</p>
                 </div>
             </div>
         </div>
@@ -202,49 +228,54 @@
                 <div class="row dd">
                     <h1>men٭</h1>
                     <hr>
-                    <p id="gff">new arrivals</p>
+                </div>
+
+                <div class="row dd">
+                    <h2>new arrivals</h2>
+                    <hr>
+                    <p id="counter">82 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>exclusive</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">10 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>dresses</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">31 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>shirts</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">17 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>coats and jackets</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">17 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>skirts</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">15 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>tops</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">21 items</p>
                 </div>
 
                 <div class="row dd">
                     <h2>bags</h2>
                     <hr>
-                    <p id="gff">laka</p>
+                    <p id="counter">09 items</p>
                 </div>
             </div>
         </div>

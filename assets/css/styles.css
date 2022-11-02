@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap');
-
 body{
     background-color: white !important;
     overflow-x: hidden !important;
@@ -15,6 +13,8 @@ body{
     margin-top: 20px;
     padding-left: 15px;
     z-index: 1000 !important;
+    text-transform: uppercase;
+    font-family: 'freigeist-medium';
 }
 /* end of navbar stylings */
 
@@ -48,6 +48,10 @@ body{
     transform: translateY(-50%);
     top: 40%;
     z-index: 1;
+    font-family: 'freigeist-regular';
+    letter-spacing: 0px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
 }
 .overview-wrapper .left-panel{
     position: relative;
@@ -57,6 +61,9 @@ body{
     width: 96%;
     bottom: 0;
     font-size: 14px;
+    font-family: 'freigeist-medium';
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: black;
 }
 #overview-footer p{
     text-transform: uppercase;
@@ -83,10 +90,14 @@ body{
     text-transform: uppercase;
     text-decoration: underline;
     margin-top: 25px;
+    font-family: 'freigeist-medium';
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: black;
 }
 .overview-wrapper .right-panel #date-text{
     position: absolute;
     bottom: 0;
+    font-family: 'freigeist-medium';
 }
 .overview-wrapper .right-panel .arrow-btn{
     border: 2px solid black;
@@ -96,6 +107,7 @@ body{
     position: absolute;
     bottom: 0;
     right: 10px;
+    font-family: 'freigeist-medium';
 }
 /* end of overview stylings */
 
@@ -104,11 +116,39 @@ body{
 .collections-section h1{
     text-transform: uppercase;
     font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
 }
 .collections-section h2{
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.collections-section #des-text{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+.collections-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
 }
 /* end of collections stylings */
 
@@ -117,11 +157,40 @@ body{
 .women-section h1{
     text-transform: uppercase;
     font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
 }
 .women-section h2{
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.women-section #counter{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.women-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
 }
 /* end of women section stylings */
 
@@ -130,10 +199,39 @@ body{
 .men-section h1{
     text-transform: uppercase;
     font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
 }
 .men-section h2{
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.men-section #counter{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.men-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
 }
 /* end of men section stylings */
