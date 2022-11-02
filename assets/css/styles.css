@@ -1,6 +1,6 @@
 body{
     background-color: white !important;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     margin: 0 !important;
     background-color: white !important;
 }
@@ -52,6 +52,7 @@ body{
     letter-spacing: 0px;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
+    width: 90%;
 }
 .overview-wrapper .left-panel{
     position: relative;
@@ -64,6 +65,7 @@ body{
     font-family: 'freigeist-medium';
     letter-spacing: 0px;
     -webkit-text-stroke-color: black;
+    left: 30px;
 }
 #overview-footer p{
     text-transform: uppercase;
@@ -99,23 +101,23 @@ body{
     bottom: 0;
     font-family: 'freigeist-medium';
 }
-.overview-wrapper .right-panel .arrow-btn{
+.overview-wrapper .arrow-btn{
     border: 2px solid black;
     height: 90px;
     width: 90px;
     border-radius: 50%;
     position: absolute;
     bottom: 0;
-    right: 20px;
+    right: 30px;
     font-family: 'freigeist-medium';
 }
-.arrow-btn p{
+.overview-wrapper .arrow-btn p{
     font-size: 45px;
     transform: rotate(180deg);
     padding-top: 5px;
     transition: all .3s ease-in-out;
 }
-.arrow-btn:hover p{
+.overview-wrapper .arrow-btn:hover p{
     font-size: 50px;
     transform: rotate(0deg);
 }
@@ -123,6 +125,10 @@ body{
 
 
 /* collections stylings */
+.collections-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
 .collections-section h1{
     text-transform: uppercase;
     font-size: 6vw;
@@ -184,6 +190,10 @@ body{
 
 
 /* women section stylings */
+.women-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
 .women-section h1{
     text-transform: uppercase;
     font-size: 6vw;
@@ -246,6 +256,10 @@ body{
 
 
 /* men section stylings */
+.men-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
 .men-section h1{
     text-transform: uppercase;
     font-size: 6vw;

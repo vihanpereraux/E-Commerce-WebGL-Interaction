@@ -16,6 +16,7 @@ class Navbar extends HTMLElement{
                 font-family: 'freigeist-medium';
                 text-transform: uppercase;
                 font-size: 14px;
+                backdrop-filter: blur(20px);
             }
             .larger-screen-nav-wrapper ul li a{
                 text-decoration: none;
