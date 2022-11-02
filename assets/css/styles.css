@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap');
-
 body{
     background-color: white !important;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     margin: 0 !important;
     background-color: white !important;
 }
@@ -15,6 +13,8 @@ body{
     margin-top: 20px;
     padding-left: 15px;
     z-index: 1000 !important;
+    text-transform: uppercase;
+    font-family: 'freigeist-medium';
 }
 /* end of navbar stylings */
 
@@ -22,6 +22,7 @@ body{
     margin-top: 100px;
 }
 
+/* etc */
 .dd{
     position: relative;
     width: 100%;
@@ -31,3 +32,290 @@ body{
     right: 0;
     width: auto;
 }
+/* etc */
+
+
+/* overview stylings */
+.overview-wrapper{
+    position: relative;
+}
+.overview-wrapper #title{
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    font-size: 6vw;
+    margin-left: 25px;
+    transform: translateY(-50%);
+    top: 40%;
+    z-index: 1;
+    font-family: 'freigeist-regular';
+    letter-spacing: 0px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    width: 90%;
+}
+.overview-wrapper .left-panel{
+    position: relative;
+}
+.overview-wrapper #overview-footer{
+    position: absolute;
+    width: 96%;
+    bottom: 0;
+    font-size: 14px;
+    font-family: 'freigeist-medium';
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: black;
+    left: 30px;
+}
+#overview-footer p{
+    text-transform: uppercase;
+}
+#overview-footer ul{
+    padding-left: 0px;
+    text-transform: uppercase;
+}
+#overview-footer ul li{
+    list-style: none;
+    float: left;
+}
+#overview-footer ul li:nth-child(2){
+    margin-left: 15px;
+    margin-right: 7.5px;
+}
+#overview-footer ul li:nth-child(3){
+    margin-left: 7.5px;
+}
+.overview-wrapper .right-panel{
+    position: relative;
+}
+.overview-wrapper .right-panel #link{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-family: 'freigeist-medium';
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: black;
+}
+.overview-wrapper .right-panel #date-text{
+    position: absolute;
+    bottom: 0;
+    font-family: 'freigeist-medium';
+}
+.overview-wrapper .arrow-btn{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-family: 'freigeist-medium';
+}
+.overview-wrapper .arrow-btn p{
+    font-size: 45px;
+    transform: rotate(180deg);
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+}
+.overview-wrapper .arrow-btn:hover p{
+    font-size: 50px;
+    transform: rotate(0deg);
+}
+/* end of overview stylings */
+
+
+/* collections stylings */
+.collections-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
+.collections-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
+}
+.collections-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.collections-section #des-text{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+.collections-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
+}
+.collections-section .arrow-btn{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    font-family: 'freigeist-medium';
+}
+.collections-section .arrow-btn p{
+    font-size: 45px;
+    transform: rotate(180deg);
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+}
+.collections-section .arrow-btn:hover p{
+    font-size: 50px;
+    transform: rotate(0deg);
+}
+/* end of collections stylings */
+
+
+/* women section stylings */
+.women-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
+.women-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
+}
+.women-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.women-section #counter{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.women-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
+}
+.women-section .arrow-btn{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    font-family: 'freigeist-medium';
+}
+.women-section .arrow-btn p{
+    font-size: 45px;
+    transform: rotate(180deg);
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+}
+.women-section .arrow-btn:hover p{
+    font-size: 50px;
+    transform: rotate(0deg);
+}
+/* end of women section stylings */
+
+
+/* men section stylings */
+.men-section .right-panel{
+    padding-left: 25px;
+    padding-right: 17px;
+}
+.men-section h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .2px;
+    font-family: 'freigeist-regular';
+    padding-left: 0px;
+}
+.men-section h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'freigeist-light';
+    cursor: pointer;
+    padding-left: 0px;
+}
+.men-section #counter{
+    position: absolute;
+    right: -2px;
+    width: auto;
+    font-family: 'freigeist-light';
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.men-section hr{
+    opacity: .5;
+    height: 1.2px;
+    background-color: black;
+}
+.men-section .arrow-btn{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    font-family: 'freigeist-medium';
+}
+.men-section .arrow-btn p{
+    font-size: 45px;
+    transform: rotate(180deg);
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+}
+.men-section .arrow-btn:hover p{
+    font-size: 50px;
+    transform: rotate(0deg);
+}
+/* end of men section stylings */

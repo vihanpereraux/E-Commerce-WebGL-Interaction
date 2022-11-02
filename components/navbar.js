@@ -13,6 +13,10 @@ class Navbar extends HTMLElement{
                 width: 72%;
                 border-bottom: 2px solid black;
                 z-index: 1000;
+                font-family: 'freigeist-medium';
+                text-transform: uppercase;
+                font-size: 14px;
+                backdrop-filter: blur(20px);
             }
             .larger-screen-nav-wrapper ul li a{
                 text-decoration: none;
@@ -20,11 +24,12 @@ class Navbar extends HTMLElement{
                 margin-bottom: 10px;
             }
             .larger-screen-nav-wrapper #menu-text{
-                color: white;
+                color: black;
                 position: absolute;
                 bottom: 0;
                 transform: translateX(-50%);
-                left: 50%
+                left: 50%;
+                top: 20px;
             }
         </style>
         
@@ -49,7 +54,7 @@ class Navbar extends HTMLElement{
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Cart (3)</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
                         </ul>
                     </div>
                 </div>

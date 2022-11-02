@@ -17,6 +17,8 @@ class Header extends HTMLElement{
                 left: 50%;
                 top: 50%;
                 color: black !important;
+                font-family: freigeist-medium;
+                font-size: 4vw;
             }
             
             #page-wrap {
@@ -86,7 +88,7 @@ class Header extends HTMLElement{
             }
         </style>
         
-        <h1>aesthetic vibes</h1>
+        <h1>kameeliya vibes</h1>
         <div id="page-wrap">
             <div id="canvas"></div>
             <div class="curtain-wrapper">
