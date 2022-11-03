@@ -29,7 +29,12 @@
     <!-- custom stylings -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script src="assets/js/ink.js"></script>
+    <!-- js libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="assets/js/hover-effect.umd.js"></script>
+
+    <!-- components -->
     <script src="components/navbar.js"></script>
     <script src="components/header.js"></script>
 </head>
@@ -62,7 +67,7 @@
     <!-- overview -->
     <div class="container-fluid overview-wrapper">
         <div class="row">
-            <h1 id="title">ss21 <br> collection</h1>
+            <h1 id="title">ss22 <br> collection</h1>
 
             <div class="col-3 left-panel">
                 <div id="overview-footer">
@@ -79,11 +84,11 @@
             <div class="col-9 right-panel">
                 <div class="row">
                     <div class="col-7">
-                        <img class="w-100 hh" src="assets/img/overview/Image-01.png" alt="">
+                        <img class="w-100 hh" src="assets/img/overview/img01.jpg" alt="">
                     </div>
 
                     <div class="col-5">
-                        <img class="w-100" src="assets/img/overview/Image-02.png" alt="">
+                        <img class="w-100" src="assets/img/overview/img02.jpg" alt="">
                         
                         <div class="row">
                             <div class="col-7">
@@ -105,29 +110,36 @@
 
     <div id="custom-margin"></div>
 
+    <!-- banner area -->
+    
+
     <!-- collections -->
     <div class="container-fluid collections-section">
         <div class="row">
             <div class="col-3"></div>
+
             <div class="col-9 right-panel">
                 <div class="row dd">
                     <h1>collections٭</h1>
                     <hr>
-                    <button class="btn arrow-btn">
-                        <p id="arrow">→</p>
-                    </button>
+                    <button class="btn arrow-btn"><p id="arrow">→</p></button>
                 </div>
 
                 <div class="row dd">
-                    <h2>ss21</h2>
+                    <h2 class="item-001">ss21</h2>
                     <hr>
                     <p id="des-text">Lamour</p>
+                    
+                    <div id="banner-area"></div>
+                    <!-- <img class="thumbnail" src="assets/img/collection/item-01.jpg" /> -->
                 </div>
 
                 <div class="row dd">
                     <h2>fw20</h2>
                     <hr>
                     <p id="des-text">LAnnee 97</p>
+
+                    <img src="assets/img/collection/item-01.jpg" />
                 </div>
 
                 <div class="row dd">
@@ -298,5 +310,15 @@
 
     <!-- custom scripts -->
     <script src="assets/js/script.js" type="module"></script>
+
+    <script>
+        var hoverDisort = new hoverEffect({
+            parent: document.querySelector('#banner-area'),
+            intensity: 0.3,
+            image1: './assets/img/collection/img_one.jpg',
+            image2: './assets/img/collection/img_two.jpg',
+            displacementImage: './assets/img/collection/img_one.jpg'
+        });
+    </script>
 </body>
 </html>

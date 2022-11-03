@@ -38,6 +38,7 @@ body{
 /* overview stylings */
 .overview-wrapper{
     position: relative;
+    /* background-color: beige; */
 }
 .overview-wrapper #title{
     position: absolute;
@@ -151,6 +152,30 @@ body{
     cursor: pointer;
     padding-left: 0px;
 }
+.collections-section .dd{
+    position: relative;
+}
+.collections-section .dd img{
+    position: absolute;
+    width: 350px;
+    left: 150px;
+    z-index: 2;
+    mix-blend-mode: luminosity;
+    opacity: 0;
+    top: -40px;
+    transition: all 0.2s ease-in-out;
+}
+.collections-section .dd:hover img{
+    transform: rotate(-5deg);
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.collections-section .dd:hover img:hover{
+    mix-blend-mode:normal;
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+}
 .collections-section #des-text{
     position: absolute;
     right: -2px;
@@ -187,6 +212,36 @@ body{
     transform: rotate(0deg);
 }
 /* end of collections stylings */
+
+
+/*  */
+#banner-area{
+    position: absolute;
+    z-index: 1000 !important;
+    /* background-color: darkblue; */
+    mix-blend-mode: luminosity;
+    width: auto !important;
+    opacity: 0; 
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-7deg);
+    left: 130px;
+    top: -50px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #banner-area{
+    opacity: 1 !important;
+}
+.dd:hover #banner-area:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#banner-area canvas{
+    width: 320px !important;
+    height: 200px !important;
+}
+/*  */
 
 
 /* women section stylings */
