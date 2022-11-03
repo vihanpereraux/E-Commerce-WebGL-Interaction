@@ -29,6 +29,11 @@
     <!-- custom stylings -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!-- js libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="assets/js/hover-effect.umd.js"></script>
+
     <!-- components -->
     <script src="components/navbar.js"></script>
     <script src="components/header.js"></script>
@@ -105,6 +110,9 @@
 
     <div id="custom-margin"></div>
 
+    <!-- banner area -->
+    
+
     <!-- collections -->
     <div class="container-fluid collections-section">
         <div class="row">
@@ -121,13 +129,17 @@
                     <h2 class="item-001">ss21</h2>
                     <hr>
                     <p id="des-text">Lamour</p>
-                    <img src="assets/img/collection/item-01.jpg" alt="">
+                    
+                    <div id="banner-area"></div>
+                    <!-- <img class="thumbnail" src="assets/img/collection/item-01.jpg" /> -->
                 </div>
 
                 <div class="row dd">
                     <h2>fw20</h2>
                     <hr>
                     <p id="des-text">LAnnee 97</p>
+
+                    <img src="assets/img/collection/item-01.jpg" />
                 </div>
 
                 <div class="row dd">
@@ -298,5 +310,15 @@
 
     <!-- custom scripts -->
     <script src="assets/js/script.js" type="module"></script>
+
+    <script>
+        var hoverDisort = new hoverEffect({
+            parent: document.querySelector('#banner-area'),
+            intensity: 0.3,
+            image1: './assets/img/collection/img_one.jpg',
+            image2: './assets/img/collection/img_two.jpg',
+            displacementImage: './assets/img/collection/img_one.jpg'
+        });
+    </script>
 </body>
 </html>
