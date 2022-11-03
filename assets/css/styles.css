@@ -215,31 +215,31 @@ body{
 
 
 /*  */
-#banner-area{
+#jesus{
     position: absolute;
     z-index: 1000 !important;
     /* background-color: darkblue; */
     mix-blend-mode: luminosity;
-    width: auto !important;
+    width: auto!important;
     opacity: 0; 
     transition: all 0.2s ease-in-out;
     transform: rotate(-7deg);
-    left: 130px;
+    left: 140px;
     top: -50px;
     cursor: pointer;
     aspect-ratio: 16/9;
 }
-.dd:hover #banner-area{
+.dd:hover #jesus{
     opacity: 1 !important;
 }
-.dd:hover #banner-area:hover{
+.dd:hover #jesus:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
     mix-blend-mode: normal;
 }
-#banner-area canvas{
-    width: 320px !important;
-    height: 200px !important;
+#jesus canvas{
+    width: 350px !important;
+    height: 180px !important;
 }
 /*  */
 
