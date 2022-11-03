@@ -38,6 +38,7 @@ body{
 /* overview stylings */
 .overview-wrapper{
     position: relative;
+    /* background-color: beige; */
 }
 .overview-wrapper #title{
     position: absolute;
@@ -150,6 +151,24 @@ body{
     font-family: 'freigeist-light';
     cursor: pointer;
     padding-left: 0px;
+}
+.collections-section .dd{
+    position: relative;
+}
+.collections-section .dd img{
+    position: absolute;
+    width: 350px;
+    left: 150px;
+    z-index: 2;
+    mix-blend-mode:multiply;
+    opacity: 0;
+    top: -40px;
+    transition: all 0.2s ease-in-out;
+}
+.collections-section .dd:hover img{
+    transform: rotate(-5deg);
+    opacity: 1;
+    cursor: pointer;
 }
 .collections-section #des-text{
     position: absolute;
