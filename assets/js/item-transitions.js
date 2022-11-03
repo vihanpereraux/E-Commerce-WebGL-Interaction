@@ -3,5 +3,5 @@ var hoverDisort = new hoverEffect({
     intensity: 0.3,
     image1: './assets/img/collection/img_one.jpg',
     image2: './assets/img/collection/img_two.jpg',
-    displacementImage: '/assets/img/collection/4.png'
+    displacementImage: './assets/img/collection/4.png'
 });
