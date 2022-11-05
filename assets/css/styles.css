@@ -155,27 +155,6 @@ body{
 .collections-section .dd{
     position: relative;
 }
-.collections-section .dd img{
-    position: absolute;
-    width: 350px;
-    left: 150px;
-    z-index: 2;
-    mix-blend-mode: luminosity;
-    opacity: 0;
-    top: -40px;
-    transition: all 0.2s ease-in-out;
-}
-.collections-section .dd:hover img{
-    transform: rotate(-5deg);
-    opacity: 1;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-.collections-section .dd:hover img:hover{
-    mix-blend-mode:normal;
-    transform: skewX(7deg);
-    transform: skewY(-5deg);
-}
 .collections-section #des-text{
     position: absolute;
     right: -2px;
@@ -185,6 +164,11 @@ body{
     -webkit-text-stroke-color: black;
     font-size: 35px;
     cursor: pointer;
+    opacity: 0.3;
+    transition: opacity .3s ease-in-out;
+}
+.collections-section .dd:hover #des-text{
+    opacity: 1;
 }
 .collections-section hr{
     opacity: .5;
@@ -241,9 +225,20 @@ body{
     cursor: pointer;
     padding-left: 0px;
 }
+.women-section .arrow-icon{
+    opacity: 0;
+    margin-left: 10px;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+}
+.women-section .dd:hover .arrow-icon{
+    opacity: 1;
+    margin-left: 20px;
+}
 .women-section #counter{
     position: absolute;
     right: -2px;
+    top: 15px;
     width: auto;
     font-family: 'freigeist-light';
     -webkit-text-stroke-width: .7px;
@@ -251,6 +246,11 @@ body{
     font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+}
+.women-section .dd:hover #counter{
+    opacity: 1;
 }
 .women-section hr{
     opacity: .5;
@@ -307,9 +307,20 @@ body{
     cursor: pointer;
     padding-left: 0px;
 }
+.men-section .arrow-icon{
+    opacity: 0;
+    margin-left: 10px;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+}
+.men-section .dd:hover .arrow-icon{
+    opacity: 1;
+    margin-left: 20px;
+}
 .men-section #counter{
     position: absolute;
     right: -2px;
+    top: 15px;
     width: auto;
     font-family: 'freigeist-light';
     -webkit-text-stroke-width: .7px;
@@ -317,11 +328,11 @@ body{
     font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
 }
-.men-section hr{
-    opacity: .5;
-    height: 1.2px;
-    background-color: black;
+.men-section .dd:hover #counter{
+    opacity: 1;
 }
 .men-section .arrow-btn{
     border: 2px solid black;
