@@ -1,0 +1,155 @@
+#jesus{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus{
+    opacity: 1 !important;
+}
+.dd:hover #jesus:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus canvas{
+    width: 450px !important;
+    height: 210px !important;
+}
+
+#jesus2{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus2{
+    opacity: 1 !important;
+}
+.dd:hover #jesus2:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus2 canvas{
+    width: 450px !important;
+    height: 210px !important;
+}
+
+#jesus3{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus3{
+    opacity: 1 !important;
+}
+.dd:hover #jesus3:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus3 canvas{
+    width: 450px !important;
+    height: 210px !important;
+}
+
+#jesus4{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus4{
+    opacity: 1 !important;
+}
+.dd:hover #jesus4:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus4 canvas{
+    width: 450px !important;
+    height: 210px !important;
+}
+
+#jesus5{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus5{
+    opacity: 1 !important;
+}
+.dd:hover #jesus5:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus5 canvas{
+    width: 450px !important;
+    height: 210px !important;
+}
+
+#jesus6{
+    position: absolute;
+    z-index: 0 !important;
+    width: 23vw !important;
+    height: 10vw;
+    opacity: 0; 
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-6deg);
+    left: 140px;
+    top: -60px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+}
+.dd:hover #jesus6{
+    opacity: 1 !important;
+}
+.dd:hover #jesus6:hover{
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+    mix-blend-mode: normal;
+}
+#jesus6 canvas{
+    width: 450px !important;
+    height: 210px !important;
+}

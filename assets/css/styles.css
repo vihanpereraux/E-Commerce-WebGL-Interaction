@@ -214,40 +214,6 @@ body{
 /* end of collections stylings */
 
 
-/*  */
-#jesus{
-    position: absolute;
-    z-index: 0 !important;
-    /* background-color: darkblue; */
-    mix-blend-mode: luminosity;
-    width: 23vw !important;
-    height: 10vw;
-    opacity: 0; 
-    transition: all 0.2s ease-in-out;
-    transform: rotate(-6deg);
-    left: 140px;
-    top: -60px;
-    cursor: pointer;
-    aspect-ratio: 16/9;
-}
-.dd:hover #jesus{
-    opacity: 1 !important;
-}
-.dd:hover #jesus:hover{
-    transform: skewX(7deg);
-    transform: skewY(-5deg);
-    mix-blend-mode: normal;
-}
-#jesus canvas{
-    width: 360px !important;
-    height: 210px !important;
-    /* width: 100%; */
-    /* width: 350px !important; */
-    /* height: 180px !important; */
-}
-/*  */
-
-
 /* women section stylings */
 .women-section .right-panel{
     padding-left: 25px;
