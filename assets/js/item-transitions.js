@@ -1,47 +1,19 @@
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_one.jpg',
-    image2: './assets/img/collection/img_two.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
+addInteractivity('transition-1', 'img_one.jpg', 'img_two.jpg');
+addInteractivity('transition-2', 'img_three.jpg', 'img_four.jpg');
+addInteractivity('transition-3', 'img_five.jpg', 'img_six.jpg');
+addInteractivity('transition-4', 'img_seven.jpg', 'img_eight.jpg');
+addInteractivity('transition-5', 'img_nine.jpg', 'img_ten.jpg');
+addInteractivity('transition-6', 'img_eleven.jpg', 'img_twelve.jpg');
 
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus2'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_four.jpg',
-    image2: './assets/img/collection/img_three.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
 
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus3'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_five.jpg',
-    image2: './assets/img/collection/img_six.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
+function addInteractivity(selector, imageOne, imageTwo){
+    var hoverDisort = new hoverEffect({
+        parent: document.querySelector('#' + selector),
+        intensity: 0.2,
+        image1: './assets/img/collection/' + imageOne,
+        image2: './assets/img/collection/' + imageTwo,
+        displacementImage: './assets/img/collection/4.png'
+    });
 
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus4'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_seven.jpg',
-    image2: './assets/img/collection/img_eight.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
-
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus5'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_nine.jpg',
-    image2: './assets/img/collection/img_ten.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
-
-var hoverDisort = new hoverEffect({
-    parent: document.querySelector('#jesus6'),
-    intensity: 0.3,
-    image1: './assets/img/collection/img_eleven.jpg',
-    image2: './assets/img/collection/img_twelve.jpg',
-    displacementImage: './assets/img/collection/4.png'
-});
+    return hoverDisort;
+}
