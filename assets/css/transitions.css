@@ -4,37 +4,67 @@
     width: 23vw !important;
     height: 10vw;
     opacity: 0; 
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-1{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-1:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-1{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-1 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-1{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-1 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-1{
+    left: 140px;
 }
+.sticker-wrapper:hover #explore-text-1{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 70px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(15deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-1 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
 
 #transition-2{
     position: absolute;
@@ -48,30 +78,59 @@
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-2{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-2:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-2{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-2 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-2{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-2 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-2{
+    left: 140px;
+}
+.sticker-wrapper:hover #explore-text-2{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 60px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(15deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-2 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 #transition-3{
@@ -86,30 +145,59 @@
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-3{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-3:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-3{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-3 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-3{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-3 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-3{
+    left: 140px;
+}
+.sticker-wrapper:hover #explore-text-3{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 60px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(14deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-3 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 #transition-4{
@@ -124,30 +212,59 @@
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-4{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-4:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-4{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-4 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-4{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-4 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-4{
+    left: 140px;
+}
+.sticker-wrapper:hover #explore-text-4{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 60px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(14deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-4 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 #transition-5{
@@ -162,30 +279,59 @@
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-5{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-5:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-5{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-5 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-5{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-5 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-5{
+    left: 140px;
+}
+.sticker-wrapper:hover #explore-text-5{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 60px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(14deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-5 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 #transition-6{
@@ -200,28 +346,57 @@
     top: -60px;
     cursor: pointer;
     aspect-ratio: 16/9;
-}
-.dd:hover #transition-6{
-    left: 140px;
-    opacity: 1 !important;
-}
-.dd:hover #transition-6:hover{
     transform: skewX(7deg);
     transform: skewY(-5deg);
-    mix-blend-mode: normal;
+}
+.dd:hover #transition-6{
+    left: 150px;
+    opacity: 1 !important;
 }
 #transition-6 canvas{
     width: 450px !important;
     height: 210px !important;
 }
 #explore-text-6{
-    position: absolute !important;
+    display: none;
 }
-#explore-text-6 canvas{
-    position: absolute !important;
-    left: 120px !important;
-    top: 80px;
-    transform: rotate(-6deg);
-    height: 40px !important;
-    width: 200px !important;
+.sticker-wrapper:hover #transition-6{
+    left: 140px;
+}
+.sticker-wrapper:hover #explore-text-6{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    top: 60px;
+    left: -40vw;
+    font-family: 'freigeist-medium';
+    text-transform: uppercase;
+    width: 120vw;
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 1;
+    mix-blend-mode:exclusion;
+    background-color: darkblue;
+    transform: rotate(14deg);
+    opacity: 1;
+} 
+.sticker-wrapper:hover #explore-text-6 p{
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: identifier 15s infinite linear;
+}
+@keyframes identifier {
+    0%{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }

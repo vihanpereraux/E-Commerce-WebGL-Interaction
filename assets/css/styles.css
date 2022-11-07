@@ -1,8 +1,7 @@
 body{
-    background-color: white !important;
-    /* overflow-x: hidden !important; */
+    background-color: #F6F3EA !important;
+    overflow-x: hidden !important;
     margin: 0 !important;
-    background-color: white !important;
 }
 
 
@@ -39,6 +38,31 @@ body{
 .overview-wrapper{
     position: relative;
     /* background-color: beige; */
+    backdrop-filter: blur(10px);
+}
+.overview-wrapper #circle{
+    width: 400px; height: 400px;
+    background-color: #E5CCA3;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 42%;
+    left: -200px;
+    z-index: -1;
+    opacity: .5;
+    filter: blur(50px);
+    animation: movement 5s infinite linear;
+}
+@keyframes movement {
+    0%, 100%{
+        width: 400px; height: 400px;
+        left: -200px;
+    }
+    50%{
+        width: 500px; height: 500px;
+        left: -150px;
+    }
+
 }
 .overview-wrapper #title{
     position: absolute;
@@ -126,6 +150,31 @@ body{
 
 
 /* collections stylings */
+.collections-section{
+    position: relative;
+}
+#collections-section-circle{
+    width: 400px; height: 400px;
+    background-color: #D5CDFB;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(60px);
+    animation: movementThree 10s infinite linear;
+}
+@keyframes movementThree {
+    0%, 100%{
+        width: 400px; height: 400px;
+        left: -10px;
+    }
+    50%{
+        left: 20px;
+        width: 800px; height: 800px;
+    }
+}
 .collections-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;
@@ -172,7 +221,7 @@ body{
 }
 .collections-section hr{
     opacity: .5;
-    height: 1.2px;
+    height: 2px;
     background-color: black;
 }
 .collections-section .arrow-btn{
@@ -199,6 +248,29 @@ body{
 
 
 /* women section stylings */
+.women-section{
+    position: relative;
+}
+#women-section-circle{
+    width: 400px; height: 400px ;
+    background-color: #F6C7BD;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .3;
+    filter: blur(60px);
+    animation: movementTwo 5s infinite linear;
+}
+@keyframes movementTwo {
+    0%, 100%{
+        width: 400px; height: 400px;
+    }
+    50%{
+        width: 800px; height: 800px;
+    }
+}
 .women-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;
@@ -281,6 +353,29 @@ body{
 
 
 /* men section stylings */
+.men-section{
+    position: relative;
+}
+#men-section-circle{
+    width: 400px; height: 400px ;
+    background-color: #BEE8BF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .3;
+    filter: blur(60px);
+    animation: movementFour 5s infinite linear;
+}
+@keyframes movementFour {
+    0%, 100%{
+        width: 400px; height: 400px;
+    }
+    50%{
+        width: 800px; height: 800px;
+    }
+}
 .men-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;

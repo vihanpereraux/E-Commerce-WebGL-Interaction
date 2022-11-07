@@ -51,6 +51,8 @@
     <!-- custom margin for fix navbar -->
     <div id="custom-margin"></div>
 
+    <div style="color: red; position: fixed; z-index: 1000; font-size: 55px;"><span id="fps">--</span> FPS</div>
+
     <!-- header section -->
     <div id="header">
         <header-component></header-component>
@@ -62,6 +64,8 @@
 
     <!-- overview -->
     <div class="container-fluid overview-wrapper">
+        <div id="circle"></div>
+
         <div class="row">
             <h1 id="title">ss22 <br> collection</h1>
 
@@ -108,6 +112,8 @@
 
     <!-- collections -->
     <div class="container-fluid collections-section">
+        <div id="collections-section-circle"></div>
+
         <div class="row">
             <div class="col-3"></div>
 
@@ -118,46 +124,112 @@
                     <button class="btn arrow-btn"><p id="arrow">→</p></button>
                 </div>
 
-                <div class="row dd">
+                <div class="row dd collection-item-one">
                     <h2 class="item-001">ss21</h2>
                     <hr>
                     <p id="des-text">Lamour</p>
-                    <div id="transition-1"><div id="explore-text-1"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-1">
+                            <div id="explore-text-1">
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                                <p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21 </p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p><p>Explore Collection ✹ SS21</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row dd">
                     <h2>fw20</h2>
                     <hr>
                     <p id="des-text">LAnnee 97</p>
-                    <div id="transition-2"><div id="explore-text-2"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-2">
+                            <div id="explore-text-2">
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                                <p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20 </p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p><p>Explore Collection ✹ FW20</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row dd">
                     <h2>ss20</h2>
                     <hr>
                     <p id="des-text">Le Coup de Soleil</p>
-                    <div id="transition-3"><div id="explore-text-3"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-3">
+                            <div id="explore-text-3">
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                                <p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20 </p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p><p>Explore Collection ✹ SS20</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row dd">
                     <h2>fw19</h2>
                     <hr>
                     <p id="des-text">Le Meunier</p>
-                    <div id="transition-4"><div id="explore-text-4"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-4">
+                            <div id="explore-text-4">
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row dd">
                     <h2>ss19</h2>
                     <hr>
                     <p id="des-text">Le Gadjo</p>
-                    <div id="transition-5"><div id="explore-text-5"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-5">
+                            <div id="explore-text-5">
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                                <p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p><p>Explore Collection ✹ SS19 </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row dd">
                     <h2>fw18</h2>
                     <hr>
                     <p id="des-text">Le Souk</p>
-                    <div id="transition-6"><div id="explore-text-6"></div></div>
+                    <div class="sticker-wrapper">
+                        <div id="transition-6">
+                            <div id="explore-text-6">
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                                <p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p><p>Explore Collection ✹ FW19 </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,6 +240,8 @@
 
     <!-- women section -->
     <div class="container-fluid women-section">
+        <div id="women-section-circle"></div>
+        
         <div class="row">
             <div class="col-3"></div>
             <div class="col-9 right-panel">
@@ -235,6 +309,8 @@
 
     <!-- men section -->
     <div class="container-fluid men-section">
+        <div id="men-section-circle"></div>
+
         <div class="row">
             <div class="col-3"></div>
             <div class="col-9 right-panel">
@@ -309,14 +385,34 @@
     <script src="assets/js/libs/hover-effect.umd.js"></script>
 
     <!-- wavy text effect -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="assets/js/libs/blotter.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
-    <script src="https://rawgit.com/bradley/Blotter/master/build/materials/liquidDistortMaterial.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script> -->
+    <!-- <script src="https://rawgit.com/bradley/Blotter/master/build/materials/liquidDistortMaterial.js"></script> -->
 
     <!-- custom scripts -->
     <script src="assets/js/script.js" type="module"></script>
     <script src="assets/js/item-transitions.js"></script>
     <script src="assets/js/distort-effect.js"></script>
+
+    <!-- FPS counter -->
+    <script>
+        var fps = document.getElementById("fps");
+        var startTime = Date.now();
+        var frame = 0;
+
+        function tick() {
+        var time = Date.now();
+        frame++;
+        if (time - startTime > 1000) {
+            fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
+            startTime = time;
+            frame = 0;
+        }
+        window.requestAnimationFrame(tick);
+        }
+        tick();
+
+    </script>
 </body>
 </html>

@@ -93,19 +93,19 @@ document.fonts.ready.then(() => {
     let scope = blotter.forText(text);
     scope.appendTo(innerText); 
 
-    let scope2 = blotter2.forText(text2);
-    scope2.appendTo(innerText2); 
+    // let scope2 = blotter2.forText(text2);
+    // scope2.appendTo(innerText2); 
     
-    let scope3 = blotter3.forText(text3);
-    scope3.appendTo(innerText3); 
+    // let scope3 = blotter3.forText(text3);
+    // scope3.appendTo(innerText3); 
 
-    let scope4 = blotter4.forText(text4);
-    scope4.appendTo(innerText4); 
+    // let scope4 = blotter4.forText(text4);
+    // scope4.appendTo(innerText4); 
     
-    let scope5 = blotter5.forText(text5);
-    scope5.appendTo(innerText5); 
+    // let scope5 = blotter5.forText(text5);
+    // scope5.appendTo(innerText5); 
 
-    let scope6 = blotter6.forText(text6);
-    scope6.appendTo(innerText6); 
+    // let scope6 = blotter6.forText(text6);
+    // scope6.appendTo(innerText6); 
 });
 
