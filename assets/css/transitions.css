@@ -8,7 +8,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -25,7 +25,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-1{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-1{
     display: block;
@@ -76,7 +76,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -93,7 +93,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-2{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-2{
     display: block;
@@ -143,7 +143,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -160,7 +160,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-3{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-3{
     display: block;
@@ -210,7 +210,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -227,7 +227,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-4{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-4{
     display: block;
@@ -277,7 +277,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -294,7 +294,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-5{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-5{
     display: block;
@@ -344,7 +344,7 @@
     transform: rotate(-6deg);
     left: 130px;
     top: -60px;
-    cursor: pointer;
+    /* cursor: none !important; */
     aspect-ratio: 16/9;
     transform: skewX(7deg);
     transform: skewY(-5deg);
@@ -361,7 +361,7 @@
     display: none;
 }
 .sticker-wrapper:hover #transition-6{
-    left: 140px;
+    /* left: 140px; */
 }
 .sticker-wrapper:hover #explore-text-6{
     display: block;
