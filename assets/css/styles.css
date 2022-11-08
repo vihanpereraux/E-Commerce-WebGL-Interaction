@@ -4,7 +4,6 @@ body{
     margin: 0 !important;
     cursor: url(../img/cursor.png), auto;
     height: 100vh !important;
-    /* transition: 0.5s linear; */
 }
 
 
@@ -467,15 +466,15 @@ body{
 
 /* scroll bar stylings */
 body::-webkit-scrollbar {
-    width: 7px;
-  }
+    width: 0px;
+}
    
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: white;
-  }
-   
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: black;
     border-radius: 20px;
-  }
+}
 /* end of scroll bar stylins */
