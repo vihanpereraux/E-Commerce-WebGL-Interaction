@@ -1,0 +1,67 @@
+#women-item-transition-01{
+    opacity: 0;
+    position: absolute;
+    width: 420px;
+    height: 220px;
+    left: 330px;
+    top: -70px;
+    transform: skewX(1deg);
+    transform: skewY(-3deg);
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+.dd:hover #women-item-transition-01{ 
+    opacity: 1;
+    left: 350px;
+}
+#women-item-transition-01:hover{
+    filter: grayscale(0);
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+}
+
+
+#women-item-transition-02{
+    opacity: 0;
+    position: absolute;
+    width: 420px;
+    height: 220px;
+    left: 330px;
+    top: -70px;
+    transform: skewX(1deg);
+    transform: skewY(-3deg);
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+.dd:hover #women-item-transition-02{ 
+    opacity: 1;
+    left: 350px;
+}
+#women-item-transition-02:hover{
+    filter: grayscale(0);
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+}
+
+
+#women-item-transition-03{
+    opacity: 0;
+    position: absolute;
+    width: 420px;
+    height: 220px;
+    left: 330px;
+    top: -70px;
+    transform: skewX(1deg);
+    transform: skewY(-3deg);
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+.dd:hover #women-item-transition-03{ 
+    opacity: 1;
+    left: 350px;
+}
+#women-item-transition-03:hover{
+    filter: grayscale(0);
+    transform: skewX(7deg);
+    transform: skewY(-5deg);
+}
