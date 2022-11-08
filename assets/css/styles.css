@@ -51,7 +51,7 @@ body{
     top: 42%;
     left: -200px;
     z-index: -1;
-    opacity: .5;
+    opacity: .6;
     filter: blur(50px);
     animation: movement 5s infinite linear;
 }
@@ -61,7 +61,7 @@ body{
         left: -200px;
     }
     50%{
-        width: 500px; height: 500px;
+        width: 600px; height: 600px;
         left: -150px;
     }
 

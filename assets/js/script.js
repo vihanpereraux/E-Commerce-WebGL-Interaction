@@ -104,9 +104,9 @@ window.addEventListener("load", () => {
             vec4 finalColor = texture2D(simplePlaneVideoTexture, vTextureCoord);
 
             // fake shadows based on vertex position along Z axis
-            finalColor.rgb -= clamp(-vVertexPosition.z, 0.0, 1.0);
+            //finalColor.rgb -= clamp(-vVertexPosition.z, 0.0, 1.0);
             // fake lights based on vertex position along Z axis
-            finalColor.rgb += clamp(vVertexPosition.z, 0.0, 1.0);
+            //finalColor.rgb += clamp(vVertexPosition.z, 0.0, 1.0);
 
             // handling premultiplied alpha (useful if we were using a png with transparency)
             finalColor = vec4(finalColor.rgb * finalColor.a, finalColor.a);
