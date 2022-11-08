@@ -400,3 +400,9 @@
         transform: translateX(0%);
     }
 }
+
+#overview-transition-1{
+    z-index: 1000 !important;
+    width: 50% !important;
+    height: 80vh;
+}

@@ -41,7 +41,6 @@ body{
 .overview-wrapper{
     position: relative;
     /* background-color: beige; */
-    backdrop-filter: blur(10px);
 }
 .overview-wrapper #circle{
     width: 400px; height: 400px;
@@ -464,31 +463,17 @@ body{
 /* end of men section stylings */
 
 
-/* customized cursor */
-.inner-cursor{
-    position: fixed;
-    left: 10px;
-    width: 17px;
-    height: 17px;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background-color: black !important;
-    pointer-events: none;
-    transition: .09s, width 1s, height 1s;
-    z-index: 3;
-}
-
-.inner-cursor.grow{
-    width: 50px;
-    height: 50px;
-    transition: .10s, width 1s, height 1s;
-    mix-blend-mode:exclusion;
-    opacity: 1;
-    background-color: yellow !important;
-}
-/* end of customized cursor */
-
-
 /* scroll bar stylings */
-
+body::-webkit-scrollbar {
+    width: 7px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    background: white;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+  }
 /* end of scroll bar stylins */

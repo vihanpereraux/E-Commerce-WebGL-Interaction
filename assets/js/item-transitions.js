@@ -5,7 +5,6 @@ addInteractivity('transition-4', 'img_seven.jpg', 'img_eight.jpg');
 addInteractivity('transition-5', 'img_nine.jpg', 'img_ten.jpg');
 addInteractivity('transition-6', 'img_eleven.jpg', 'img_twelve.jpg');
 
-
 function addInteractivity(selector, imageOne, imageTwo){
     var hoverDisort = new hoverEffect({
         parent: document.querySelector('#' + selector),
