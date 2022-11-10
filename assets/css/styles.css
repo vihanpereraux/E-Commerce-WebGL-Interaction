@@ -1,8 +1,9 @@
 body{
-    background-color: white !important;
-    /* overflow-x: hidden !important; */
+    background-color: #F6F3EA !important;
+    overflow-x: hidden !important;
     margin: 0 !important;
-    background-color: white !important;
+    cursor: url(../img/cursor.png), auto;
+    height: 100vh !important;
 }
 
 
@@ -38,7 +39,32 @@ body{
 /* overview stylings */
 .overview-wrapper{
     position: relative;
-    /* background-color: beige; */
+    padding-right: 30px;
+    /* background-color: black; */
+}
+.overview-wrapper #circle{
+    width: 400px; height: 400px;
+    background-color: #E5CCA3;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 42%;
+    left: -200px;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(50px);
+    animation: movement 5s infinite linear;
+}
+@keyframes movement {
+    0%, 100%{
+        width: 400px; height: 400px;
+        left: -200px;
+    }
+    50%{
+        width: 600px; height: 600px;
+        left: -150px;
+    }
+
 }
 .overview-wrapper #title{
     position: absolute;
@@ -49,11 +75,13 @@ body{
     transform: translateY(-50%);
     top: 40%;
     z-index: 1;
-    font-family: 'freigeist-regular';
+    font-family: 'freigeist-light';
     letter-spacing: 0px;
-    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
-    width: 90%;
+    width: 45%;
+    line-height: 1.1;
+    /* background-color: darkblue; */
 }
 .overview-wrapper .left-panel{
     position: relative;
@@ -89,6 +117,7 @@ body{
 .overview-wrapper .right-panel{
     position: relative;
 }
+
 .overview-wrapper .right-panel #link{
     text-transform: uppercase;
     text-decoration: underline;
@@ -109,7 +138,7 @@ body{
     border-radius: 50%;
     position: absolute;
     bottom: 0;
-    right: 30px;
+    right: 12px;
     font-family: 'freigeist-medium';
 }
 .overview-wrapper .arrow-btn p{
@@ -126,6 +155,31 @@ body{
 
 
 /* collections stylings */
+.collections-section{
+    position: relative;
+}
+#collections-section-circle{
+    width: 400px; height: 400px;
+    background-color: #D5CDFB;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(60px);
+    animation: movementThree 10s infinite linear;
+}
+@keyframes movementThree {
+    0%, 100%{
+        width: 400px; height: 400px;
+        left: -10px;
+    }
+    50%{
+        left: 20px;
+        width: 800px; height: 800px;
+    }
+}
 .collections-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;
@@ -135,8 +189,8 @@ body{
     font-size: 6vw;
     letter-spacing: -1px;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: .2px;
-    font-family: 'freigeist-regular';
+    -webkit-text-stroke-width: 1.5px;
+    font-family: 'freigeist-light';
     padding-left: 0px;
 }
 .collections-section h2{
@@ -149,11 +203,13 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-family: 'freigeist-light';
-    cursor: pointer;
+    /* cursor: none !important; */
     padding-left: 0px;
+    width: 25%;
 }
 .collections-section .dd{
     position: relative;
+    /* cursor: none !important; */
 }
 .collections-section #des-text{
     position: absolute;
@@ -163,7 +219,7 @@ body{
     -webkit-text-stroke-width: .7px;
     -webkit-text-stroke-color: black;
     font-size: 35px;
-    cursor: pointer;
+    /* cursor: none !important; */
     opacity: 0.3;
     transition: opacity .3s ease-in-out;
 }
@@ -172,7 +228,7 @@ body{
 }
 .collections-section hr{
     opacity: .5;
-    height: 1.2px;
+    height: 2px;
     background-color: black;
 }
 .collections-section .arrow-btn{
@@ -199,6 +255,29 @@ body{
 
 
 /* women section stylings */
+.women-section{
+    position: relative;
+}
+#women-section-circle{
+    width: 400px; height: 400px ;
+    background-color: #F6C7BD;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(60px);
+    animation: movementTwo 5s infinite linear;
+}
+@keyframes movementTwo {
+    0%, 100%{
+        width: 400px; height: 400px;
+    }
+    50%{
+        width: 800px; height: 800px;
+    }
+}
 .women-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;
@@ -208,8 +287,8 @@ body{
     font-size: 6vw;
     letter-spacing: -1px;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: .2px;
-    font-family: 'freigeist-regular';
+    -webkit-text-stroke-width: 1.5px;
+    font-family: 'freigeist-light';
     padding-left: 0px;
 }
 .women-section h2{
@@ -254,7 +333,7 @@ body{
 }
 .women-section hr{
     opacity: .5;
-    height: 1.2px;
+    height: 2px;
     background-color: black;
 }
 .women-section .arrow-btn{
@@ -281,6 +360,29 @@ body{
 
 
 /* men section stylings */
+.men-section{
+    position: relative;
+}
+#men-section-circle{
+    width: 400px; height: 400px ;
+    background-color: #BEE8BF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    opacity: .6;
+    filter: blur(60px);
+    animation: movementFour 5s infinite linear;
+}
+@keyframes movementFour {
+    0%, 100%{
+        width: 400px; height: 400px;
+    }
+    50%{
+        width: 800px; height: 800px;
+    }
+}
 .men-section .right-panel{
     padding-left: 25px;
     padding-right: 17px;
@@ -290,8 +392,8 @@ body{
     font-size: 6vw;
     letter-spacing: -1px;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: .2px;
-    font-family: 'freigeist-regular';
+    -webkit-text-stroke-width: 1.5px;
+    font-family: 'freigeist-light';
     padding-left: 0px;
 }
 .men-section h2{
@@ -304,8 +406,13 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-family: 'freigeist-light';
-    cursor: pointer;
+    /* cursor: pointer; */
     padding-left: 0px;
+}
+.men-section hr{
+    opacity: .5;
+    height: 2px;
+    background-color: black;
 }
 .men-section .arrow-icon{
     opacity: 0;
@@ -355,3 +462,19 @@ body{
     transform: rotate(0deg);
 }
 /* end of men section stylings */
+
+
+/* scroll bar stylings */
+body::-webkit-scrollbar {
+    width: 0px;
+}
+   
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+}
+/* end of scroll bar stylins */

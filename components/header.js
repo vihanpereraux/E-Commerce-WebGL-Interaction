@@ -16,15 +16,40 @@ class Header extends HTMLElement{
                 transform: translate(-50%, -50%);
                 left: 50%;
                 top: 50%;
-                color: black !important;
-                font-family: freigeist-medium;
+                color: white !important;
+                font-family: freigeist-light;
                 font-size: 4vw;
+                width: 100%;
+                // background: red;
+                text-align: center; 
+            }
+            #rectangle{
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 43%;
+                top: 25%;
+                height: 350px;
+                width: 150px;
+                transform: rotate(45deg);
+                background: none;
+                border: 2px solid white;
+                border-radius: 50%;
+                animation: rectangleAnimator 10s infinite linear; 
+            }
+            @keyframes rectangleAnimator {
+                0%, 100%{
+                    transform: rotate(45deg);
+                }
+                50%{
+                    transform: rotate(35deg);
+                }
             }
             
             #page-wrap {
                 width: 100%;
                 height: auto;
                 overflow: hidden;
+                // opacity: 0.9;
             }
             #canvas {
                 height: 100vh;
@@ -88,12 +113,15 @@ class Header extends HTMLElement{
             }
         </style>
         
-        <h1>kameeliya vibes</h1>
+        <h1>kameeliya clothing ✹ 22</h1>
+        <div id="rectangle"></div>
+
         <div id="page-wrap">
             <div id="canvas"></div>
             <div class="curtain-wrapper">
                 <div class="curtain">
-                    <video class="w-100" src="assets/vid/placeholder02.mp4" crossorigin="" data-sampler="simplePlaneVideoTexture"></video>
+                    <!-- https://www.youtube.com/watch?v=AZngcdzGnNg -->
+                    <video class="w-100" src="assets/vid/Background.mp4" crossorigin="" data-sampler="simplePlaneVideoTexture"></video>
                 </div>
             </div>
         </div>
